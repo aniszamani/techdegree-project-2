@@ -74,6 +74,10 @@ hr {
   margin: 15px;
 }
 
+.skills {
+  border-top: 1px solid;
+}
+
 .contact {
   margin: 30px auto;
   max-width: 500px;
