@@ -1,0 +1,214 @@
+/*--- Base Elements ---*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  display: inline;
+  text-align: center;
+  background-color: #92d7cd;
+}
+
+header,
+footer {
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  padding: 10px 0;
+  background-color: white;
+}
+
+p {
+  margin: 20px 10px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #b03312;
+}
+
+hr {
+  width: 90%;
+  border: 1px solid #000;
+}
+
+.name {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+.intro {
+  margin: 30px 0;
+}
+
+.profile-image {
+  width: 70%;
+}
+
+.portfolio {
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.listing {
+  margin: 15px;
+}
+
+.contact {
+  margin: 30px auto;
+  max-width: 500px;
+}
+
+footer {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer .name {
+  float: left;
+  margin: 10px;
+}
+
+footer ul {
+  display: none;
+}
+
+.back-to-top {
+  display: inline-block;
+  float: right;
+  font-weight: 700;
+  font-size: 1em;
+  margin: 1em;
+}
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/*--- Media Queries ---*/
+
+@media (min-width: 768px) {
+
+  header {
+    margin-top: 50px;
+  }
+
+  li {
+    display: inline;
+    background-color: transparent;
+  }
+
+  .intro {
+    margin: 30px;
+  }
+
+  .profile-image {
+    float: right;
+  }
+
+  .about {
+    float: left;
+    width: 395px;
+    text-align: left;
+    font-size: 1.1em;
+  }
+
+  .profile-image {
+    width: 290px;
+  }
+
+  .sections {
+    margin: 20px;
+  }
+
+  .listing {
+    width: 45%;
+    margin: 1em;
+  }
+
+  .PC1,
+  .PC2 {
+    float: left;
+  }
+
+  footer .name {
+    float: left;
+  }
+
+  footer ul {
+    display: inline;
+    float: right;
+  }
+
+  .back-to-top {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 910px;
+    margin: 0 auto;
+  }
+
+  .name {
+    float: left;
+  }
+
+  .main-nav {
+    float: right;
+    display: inline-block;
+  }
+
+  .about {
+    float: left;
+    width: 50%;
+    font-size: 1.2em;
+  }
+
+  .profile-image {
+    float: right;
+    width: 370px;
+    margin: 20px;
+  }
+
+  .listing {
+    width: 31%;
+    margin: 10px;
+  }
+
+  hr {
+    max-width: 890px;
+  }
+
+  .contact {
+    margin: 60px auto;
+  }
+
+  footer .name {
+    padding: 25px;
+  }
+}
