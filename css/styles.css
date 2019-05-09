@@ -168,7 +168,7 @@ footer ul {
   }
 
   .back-to-top {
-    display: block;
+    display: none;
   }
 }
 
